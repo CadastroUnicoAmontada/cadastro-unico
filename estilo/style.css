@@ -132,6 +132,32 @@ body {
     width: 8rem;
 }
 
+.fita-baixa {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.fita-baixa .fita1 {
+    width: 25%;
+    border: 1px solid #00639c;
+}
+
+.fita-baixa .fita2 {
+    width: 25%;
+    border: 1px solid #00d6d6;
+}
+
+.fita-baixa .fita3 {
+    width: 25%;
+    border: 1px solid rgb(197, 0, 0);
+}
+
+.fita-baixa .fita4 {
+    width: 25%;
+    border: 1px solid rgb(255, 251, 4);
+}
+
 
 footer {
     display: flex;
@@ -180,6 +206,10 @@ footer {
     color: white;
     font-size: .5rem;
     text-align: center;
+}
+
+.autor a {
+    color: #00aeff;
 }
 
 /* BREAKPOINTS */
@@ -426,6 +456,7 @@ footer {
     #inicio .img-noticia img {
         width: 12rem;
     }
+    
 
     footer {
         display: grid;
